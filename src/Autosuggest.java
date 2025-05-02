@@ -30,6 +30,7 @@ public class Autosuggest {
 		System.out.println(driver.findElements(By.xpath("//input[@type='checkbox']")).size());
 		Assert.assertTrue(driver.findElement(By.id("ctl00_mainContent_chk_StudentDiscount")).isSelected());
 		Assert.assertEquals(driver.findElements(By.xpath("//input[@type='checkbox']")).size(), 6);
+		System.out.println("Try it put");
 	}
 
 }
